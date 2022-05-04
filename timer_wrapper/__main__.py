@@ -1,11 +1,12 @@
 from datetime import datetime
+from time import sleep
 
 def timed_run(func):
     def wrapper(*args, **kwargs):
         start_time = datetime.now()
         result = func(*args, **kwargs)
         end_time = datetime.now()
-        time_diff = (end_time - start_time).microseconds / 1000
+        time_diff = round((end_time - start_time).total_seconds() * 1000)
         print(f"{func.__name__} execution terminated in {time_diff} ms." )
         return result
     return wrapper
