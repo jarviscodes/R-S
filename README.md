@@ -3,6 +3,15 @@
 Research and scratchpad repo containing code samples from books, micro-ideas, exercices, ...
 Some code may not work or be optimized as expected.
 
+Most of these have other ways of solving them. 
+There are builtins and standard libary modules that are more appropriate for production use.
+
+Inquiries? Requests? Remarks? Suggestions?
+
+`python -m transpose_cipher`
+
+`jiadoasyzmr@r.vjac`
+
 ## Done
 ### Bubble Sort
 
@@ -32,8 +41,13 @@ Simple TCP/UDP Client/Server example.
 
 Function timer like `timeit`
 
+### Transpose Cipher
+
+Encryption done.
+
 ## WIP
 
 ### Transpose Cipher
+Decryption and bruteforcing
 
-Encryption, decryption and bruteforcing of Transposition ciphers.
+
