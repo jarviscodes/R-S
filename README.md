@@ -10,7 +10,7 @@ Inquiries? Requests? Remarks? Suggestions?
 
 `python -m transpose_cipher`
 
-`jiadoasyzmr@r.vjac`
+`jiadoasyzmr@r.vjac (k=4)`
 
 ## Done
 ### Bubble Sort
