@@ -3,12 +3,15 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 class Handler(FileSystemEventHandler):
-    @staticmethod
-    def on_any_event(event):
+    def __init__(self, extension):
+        self.extension = extension
+
+    def on_any_event(self, event):
         if event.is_directory:
             return None
         elif event.event_type == 'created':
-            print(f"Document Created: {event.src_path}")
+            if self.extension in event.src_path:
+                print(f"Document Created: {event.src_path}")
 
 
 class Watcher(object):
@@ -19,7 +22,7 @@ class Watcher(object):
         self.extension = extension
 
     def run(self):
-        event_handler = Handler()
+        event_handler = Handler(self.extension)
         self.observer.schedule(event_handler, self.path_to_watch, recursive=self.recursive)
         self.observer.start()
         try:
