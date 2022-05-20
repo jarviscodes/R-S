@@ -45,6 +45,10 @@ Function timer like `timeit`
 
 Encryption done.
 
+### Directory Watcher
+
+Small tool that uses `watchdog` to watch a directory for changes.
+
 ## WIP
 
 ### Transpose Cipher

@@ -12,10 +12,11 @@ class Handler(FileSystemEventHandler):
 
 
 class Watcher(object):
-    def __init__(self, path_to_watch:str, recursive=True):
+    def __init__(self, path_to_watch:str, recursive=True, extension=".pdf"):
         self.path_to_watch = path_to_watch
         self.observer = Observer()
         self.recursive = recursive
+        self.extension = extension
 
     def run(self):
         event_handler = Handler()
