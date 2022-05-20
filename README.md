@@ -17,35 +17,35 @@ Inquiries? Requests? Remarks? Suggestions?
 
 Bubble Sorting algorithm implementation
 
-### Caesar Tool
+### [Caesar Tool](/caesar_tool)
 
 Caesar/Shift cipher tool without `codecs`.
 
-### Insertion Sort
+### [Insertion Sort](/insertion_sort)
 
 Insertion sorting algorithm implementation
 
-### Morse Tool
+### [Morse Tool](/morse_tool)
 
 Convert from and to morse code.
 
-### Reverse Cipher
+### [Reverse Cipher](/reverse_cipher)
 
 Simple Reverse cipher tool.
 
-### Socket Example
+### [Socket Example](/socket_example)
 
 Simple TCP/UDP Client/Server example.
 
-### Timer Wrapper
+### [Timer Wrapper](/timer_wrapper)
 
 Function timer like `timeit`
 
-### Transpose Cipher
+### [Transpose Cipher](/transpose_cipher)
 
 Encryption done.
 
-### Directory Watcher
+### [Directory Watcher](/directory_watcher)
 
 Small tool that uses `watchdog` to watch a directory for changes.
 
