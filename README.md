@@ -13,7 +13,7 @@ Inquiries? Requests? Remarks? Suggestions?
 `jiadoasyzmr@r.vjac (k=4)`
 
 ## Done
-### Bubble Sort
+### [Bubble Sort](/bubble_sort)
 
 Bubble Sorting algorithm implementation
 
