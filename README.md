@@ -59,5 +59,5 @@ API Endpoint example for tasks. Contains a User and Task schema.
 Decryption and bruteforcing
 
 ### Simple CRUD
-RUD :-) 
+UD :-) 
 
