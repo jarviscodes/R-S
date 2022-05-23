@@ -49,9 +49,15 @@ Encryption done.
 
 Small tool that uses `watchdog` to watch a directory for changes.
 
+### [Simple CRUD](/simple_crud)
+
+API Endpoint example for tasks. Contains a User and Task schema.
+
 ## WIP
 
 ### Transpose Cipher
 Decryption and bruteforcing
 
+### Simple CRUD
+RUD :-) 
 
